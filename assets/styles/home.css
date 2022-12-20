@@ -1,0 +1,130 @@
+body {
+    font-family: "Lato", sans-serif;
+
+    color: #1a1a1a;
+    font-size: 1rem;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+.firstSection {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.link {
+    display: flex;
+}
+
+.link li a {
+    color: white;
+    margin-left: 50px;
+
+}
+
+.logoTrapstar {
+    display: flex;
+    align-items: center;
+}
+
+.logoTrapstar img {
+    height: 70px;
+    width: 150px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 25px;
+    gap: 20px;
+}
+.icons button {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    gap: 20px;
+}
+
+#shop {
+    height: 25px;
+    width: 25px;
+}
+
+#user {
+    height: 25px;
+    width: 25px;
+}
+
+#logout {
+    height: 25px;
+    width: 25px;
+}
+
+.clothesList {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.clothesCard {
+    margin-top: 45px;
+    height: 500px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.clothesImage img {
+    height: 400px;
+    width: 320px;
+}
+
+.price {
+    text-align: center;
+    color: black;
+}
+/* FIRST SECTION */
+
+.clothesPage {
+    height: 100vh;
+    background-color: aqua;
+}
+
+.page {
+    height: 50px;
+    position: absolute;
+    bottom: 1rem;
+}
+.containerPage ul {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+  
+}
+
+.numberPage {
+    padding: 10px;
+}
