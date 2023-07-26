@@ -1,0 +1,21 @@
+{
+    "name": "acs/trapstar",
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "database\\":"database/",
+            "Stand\\":"Stand/"
+        },
+        "files":[
+            "config.php",
+            "helpers.php"
+         ]
+    },
+    "authors": [
+        {
+            "name": "Theo Buthiot",
+            "email": "t.buthiot@codeur.online"
+        }
+    ],
+    "require": {}
+}

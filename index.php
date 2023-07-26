@@ -1,4 +1,5 @@
 <?php
+use App\Controllers\BagController;
 session_start();
 
 use App\Controllers\ShopifyController;
@@ -11,6 +12,7 @@ require_once './vendor/autoload.php';
 
 switch (getUri()) {
 
+    
     case '/':
         $shopify = new ShopifyController();
         $shopify->index();
@@ -33,6 +35,11 @@ switch (getUri()) {
         $authentification->noAuth();
         $shopify = new ShopifyController();
         $shopify->article();
+        break;
+
+    case '/articleBag':
+        $form = new BagController();
+        $form->addArticleBag();
         break;
 
     case '/form_signup':

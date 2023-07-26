@@ -111,20 +111,17 @@ body {
 }
 
 .page {
-    height: 50px;
     position: absolute;
-    bottom: 1rem;
+    bottom: 0;
 }
 .containerPage ul {
-    height: 50px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
     width: 100vw;
-  
 }
 
-.numberPage {
-    padding: 10px;
+.numberPage  {
+    margin: 0  10px 0;
 }
