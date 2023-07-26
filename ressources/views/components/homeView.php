@@ -57,9 +57,7 @@
 				<div class="containerPage">
 					<ul>
 						<li class="numberPage">1</li>
-					
 						<li class="numberPage">2</li>
-					
 						<li class="numberPage">3</li>
 					</ul>
 				</div>

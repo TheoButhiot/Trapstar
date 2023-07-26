@@ -25,18 +25,19 @@
 				</label>
 
 				<button type="submit" name="submit">
-					<span>Se connecter<span></button>
-						<p>Nouveau client,<span>
-								<a href="/signup">Créer un compte</a>
-								<span></p>
-							</form>
-						</p>
-					</div>
+					<span>Se connecter<span>
+				</button>
+				<p>Nouveau client,<span>
+						<a href="/signup">Créer un compte</a>
+						<span></p>
+					</form>
+				</p>
+		</div>
 
-					<div class="welcome-container"></div>
+		<div class="welcome-container"></div>
 
 					<script type="module" src="http://localhost:5173/@vite/client"></script>
 					<script type="module" src="http://localhost:5173/main.js"></script>
-				</body>
-			</html>
+	</body>
+</html>
 

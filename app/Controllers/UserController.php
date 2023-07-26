@@ -48,6 +48,7 @@ class UserController extends ConnectionModel
         }
 
         if(password_verify($password, $user['password'])){
+            $_SESSION['user_id'] = $user['id'];
             $_SESSION['email'] = $email;
             header('Location: /home');
         }else 

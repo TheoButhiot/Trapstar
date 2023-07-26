@@ -32,5 +32,6 @@ class ArticleModel extends ConnectionModel
         $query->execute();
         $articleById = $query->fetch();
         return $articleById;
+       
     }
 }

@@ -4,8 +4,10 @@ body {
     line-height: 1.6;
     color: #1a1a1a;
     font-size: 1rem;
-    height: 100vh;
+    height: 130vh;
     padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .grid {
    
